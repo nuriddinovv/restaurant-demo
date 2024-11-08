@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import Card from "../components/Card";
 
 export const metadata: Metadata = {
   title: "DeMà Restaurant",
