@@ -12,7 +12,7 @@ export default function Contact() {
         <Link href={"/"}>
           <Image
             src={"/logo.png"}
-            alt={"DeMà Restaurant"}
+            alt={"DeMa Restaurant"}
             width={200}
             height={200}
           />

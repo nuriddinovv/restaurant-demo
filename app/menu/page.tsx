@@ -5,7 +5,7 @@ import { menuInterface } from "../../components/interface";
 export default function Menu() {
   const menuData: menuInterface[] = [
     {
-      title: "TRANCIO DI PIZZA - A DeMà",
+      title: "TRANCIO DI PIZZA - A DeMa",
       price: "23",
       desc: "A delicious variety of pizza baked in large rectangular trays originally from Rome, Italy.",
       drinks: true,
