@@ -1,12 +1,7 @@
-import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export const metadata: Metadata = {
-  title: "Contact",
-  description: "Contact page",
-};
 export default function Contact() {
   return (
     <div className="flex flex-col justify-between min-h-[85vh]">
@@ -17,7 +12,7 @@ export default function Contact() {
         <Link href={"/"}>
           <Image
             src={"/logo.png"}
-            alt={"DeMa Restaurant"}
+            alt={"DeMà Restaurant"}
             width={200}
             height={200}
           />
