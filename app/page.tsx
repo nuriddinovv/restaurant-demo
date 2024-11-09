@@ -18,7 +18,7 @@ export default function Home() {
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2">
           <Image
             src="/sect_one.jpg"
-            alt="Section one image"
+            alt="DeMà Restaurant"
             width={500}
             height={400}
             className="mx-auto rounded-lg border-[15px]"
@@ -53,7 +53,7 @@ export default function Home() {
           </div>
           <Image
             src="/square.jpg"
-            alt="Square image"
+            alt="DeMà Restaurant"
             width={400}
             height={400}
             className="mx-auto rounded-lg border-[15px]"
@@ -63,7 +63,7 @@ export default function Home() {
       <div className="container py-10">
         <Image
           src="/sect_two.jpg"
-          alt="Section two image"
+          alt="DeMà Restaurant"
           width={700}
           height={500}
           className="mx-auto rounded-lg border-[15px] mb-10"
