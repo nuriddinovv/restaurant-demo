@@ -86,24 +86,12 @@ export default function Menu() {
 
   return (
     <div className="">
-      <div
-        className="font-two bg-gray-200 pt-[120px] pb-6"
-        style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),url("/menuText.jpg")`,
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
-        <p className=" text-4xl md:text-6xl lg:text-9xl text-white">The Menu</p>
+      <div className="font-two  pt-[120px] pb-6">
+        <p className=" text-4xl container md:text-6xl lg:text-8xl text-white text-center">
+          The Menu
+        </p>
       </div>
-      <div
-        style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/bgMenu.jpg")`,
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-        }}
-        className=""
-      >
+      <div>
         <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 container">
           {menuData.map((item, i) => (
             <Card
