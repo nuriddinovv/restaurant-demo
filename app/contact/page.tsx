@@ -4,13 +4,18 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div className="flex flex-col justify-between">
+    <div className="flex flex-col justify-between min-h-[85vh]">
       <div className="pt-[120px] pb-10 container flex justify-between items-center">
         <p className=" text-4xl md:text-6xl lg:text-8xl  font-two text-center text-white">
           Contact Us
         </p>
         <Link href={"/"}>
-          <Image src={"/logo.png"} alt={""} width={200} height={200} />
+          <Image
+            src={"/logo.png"}
+            alt={"DeMà Restaurant"}
+            width={200}
+            height={200}
+          />
         </Link>
       </div>
       <div className="flex w-full justify-evenly container pb-10 text-center text-[#FAA500]">
