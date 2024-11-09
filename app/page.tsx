@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import { Metadata } from "next";
 import Image from "next/image";
 
