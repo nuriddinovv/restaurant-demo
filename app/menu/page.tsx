@@ -1,11 +1,17 @@
 import React from "react";
 import Card from "../../components/Card";
 import { menuInterface } from "../../components/interface";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Menu",
+  description: "Menu page",
+};
 
 export default function Menu() {
   const menuData: menuInterface[] = [
     {
-      title: "TRANCIO DI PIZZA - A DeMà",
+      title: "TRANCIO DI PIZZA - A DeMa",
       price: "23",
       desc: "A delicious variety of pizza baked in large rectangular trays originally from Rome, Italy.",
       drinks: true,
@@ -23,7 +29,7 @@ export default function Menu() {
       drinks: true,
     },
     {
-      title: "SPEZZATIΝΟ DI CARNE MEAT STEW",
+      title: "SPEZZATINO DI CARNE MEAT STEW",
       price: "35",
       desc: "This hearty Italian beef stew dish is enriched with the flavours of rosemary, sage and savoury pancetta.",
       drinks: true,

@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "DeMà Restaurant",
+  title: "DeMa Restaurant",
   description: "Home page",
 };
 
@@ -11,20 +11,20 @@ export default function Home() {
     <div className="font-one">
       <div className="font-two pt-[120px] pb-6">
         <p className="container text-center text-white text-4xl md:text-6xl lg:text-8xl">
-          Welcome to DeMà Restaurant
+          Welcome to DeMa Restaurant
         </p>
       </div>
       <div className="py-10">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2">
           <Image
             src="/sect_one.jpg"
-            alt="DeMà Restaurant"
+            alt="DeMa Restaurant"
             width={500}
             height={400}
             className="mx-auto rounded-lg border-[15px]"
           />
           <p className="m-auto w-[60%] text-2xl text-gray-400">
-            <span className="text-mainColor">DeMà</span> Restaurant's commitment
+            <span className="text-mainColor">DeMa</span> Restaurant's commitment
             begins with authentic and memorable Italian dishes from the
             southeast of Italy in a{" "}
             <span className="text-mainColor">"rustic euro"</span> modern yet
@@ -37,7 +37,7 @@ export default function Home() {
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2">
           <div className="m-auto w-[60%]">
             <p className="text-center text-6xl text-white font-two mb-10">
-              DeMà Restaurant
+              DeMa Restaurant
             </p>
             <p className="text-2xl text-gray-400 mb-7">
               Italian cuisine is popular in Dubai because it's delicious,
@@ -46,14 +46,14 @@ export default function Home() {
               generations to your plate in Dubai, UAE.
             </p>
             <p className="text-2xl text-gray-400">
-              DeMà brings you a diversified unique Italian experience to your
+              DeMa brings you a diversified unique Italian experience to your
               table using handmade pasta, the very best local seasonal produce,
               and the finest South-East Italian style recipes.
             </p>
           </div>
           <Image
             src="/square.jpg"
-            alt="DeMà Restaurant"
+            alt="DeMa Restaurant"
             width={400}
             height={400}
             className="mx-auto rounded-lg border-[15px]"
@@ -63,7 +63,7 @@ export default function Home() {
       <div className="container py-10">
         <Image
           src="/sect_two.jpg"
-          alt="DeMà Restaurant"
+          alt="DeMa Restaurant"
           width={700}
           height={500}
           className="mx-auto rounded-lg border-[15px] mb-10"

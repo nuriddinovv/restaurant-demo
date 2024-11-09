@@ -1,8 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
 
+export const metadata: Metadata = {
+  title: "About Us",
+  description: "About page",
+};
 export default function About() {
   return (
     <div>
@@ -16,7 +21,7 @@ export default function About() {
           <div className="">
             <p className=" text-6xl mb-10 text-white ml-10">Our Team</p>
             <p className="text-gray-400 text-xl mb-7">
-              DeMà will employ a head chef from the South of Italy with
+              DeMa will employ a head chef from the South of Italy with
               comprehensive knowledge of traditional Italian Cuisines and an
               innovative approach to customized recipes for Dine-In or Take-Out
               customers. Our team who we wish to employ, has extensive
@@ -28,7 +33,7 @@ export default function About() {
           </div>
           <Image
             src={"/about2.webp"}
-            alt={"DeMà Restaurant"}
+            alt={"DeMa Restaurant"}
             width={600}
             height={400}
             className="mx-auto rounded-lg border-[15px] mb-10"
@@ -37,7 +42,7 @@ export default function About() {
         <div className="py-10 flex gap-10">
           <Image
             src={"/about.jpg"}
-            alt={"DeMà Restaurant"}
+            alt={"DeMa Restaurant"}
             width={600}
             height={400}
             className="mx-auto rounded-lg border-[15px] mb-10"
