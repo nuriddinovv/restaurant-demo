@@ -102,10 +102,10 @@ export default function Home() {
             </p>
             <p className="text-2xl text-gray-400 mb-7" data-aos="fade-up">
               While many different Italian restaurants come in all shapes and
-              sizes, the "DeMa" concept extends beyond traditional food and fine
-              dining. Loosening its bow tie and keeping its "rustic chic"
-              ambience coupled with traditionally influenced cuisine makes it a
-              unique concept in Dubai.
+              sizes, the &#34;DeMa&#34; concept extends beyond traditional food
+              and fine dining. Loosening its bow tie and keeping its &#34;rustic
+              chic&#34; ambience coupled with traditionally influenced cuisine
+              makes it a unique concept in Dubai.
             </p>
           </div>
           <Image
