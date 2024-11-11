@@ -102,7 +102,7 @@ export default function Home() {
             </p>
             <p className="text-2xl text-gray-400 mb-7" data-aos="fade-up">
               While many different Italian restaurants come in all shapes and
-              sizes, the "DeMà" concept extends beyond traditional food and fine
+              sizes, the "DeMa" concept extends beyond traditional food and fine
               dining. Loosening its bow tie and keeping its "rustic chic"
               ambience coupled with traditionally influenced cuisine makes it a
               unique concept in Dubai.
@@ -128,7 +128,7 @@ export default function Home() {
               Proposed Restaurant Ambience
             </p>
             <p className="text-2xl text-gray-400 mb-7" data-aos="fade-up">
-              DeMà will have a clean, yet rustic euro ambience coupled with
+              DeMa will have a clean, yet rustic euro ambience coupled with
               excellent warm service from the staff and its owners.{" "}
               <span className="text-mainColor">
                 UAE diners will be highly impressed with the experience of our
