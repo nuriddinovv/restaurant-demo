@@ -88,9 +88,6 @@ export default function Home() {
             <p className="text-6xl text-mainColor italic" data-aos="fade-up">
               Buon Appetito,
             </p>
-            <p className="text-6xl text-mainColor font-two" data-aos="fade-up">
-              Dubai!
-            </p>
           </div>
         </div>
       </div>
