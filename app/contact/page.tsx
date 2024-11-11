@@ -22,6 +22,7 @@ export default function Contact() {
             data-aos="zoom-in"
             data-aos-duration="1000"
             data-aos-delay="300"
+            className="hover:scale-75"
           />
         </Link>
       </div>

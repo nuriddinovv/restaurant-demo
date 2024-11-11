@@ -29,5 +29,10 @@ const config: Config = {
     },
   },
   plugins: [],
+  variants: {
+    extend: {
+      scale: ["hover", "focus"], // hover effektini kengaytirish
+    },
+  },
 };
 export default config;

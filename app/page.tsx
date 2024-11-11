@@ -68,7 +68,7 @@ export default function Home() {
           alt="DeMa Restaurant"
           width={700}
           height={500}
-          className="mx-auto rounded-lg border-[15px] mb-10"
+          className="mx-auto rounded-lg border-[15px] mb-10 "
           data-aos="zoom-in"
         />
         <div className="grid grid-cols-2 gap-32">
@@ -91,6 +91,81 @@ export default function Home() {
             <p className="text-6xl text-mainColor font-two" data-aos="fade-up">
               Dubai!
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="py-10" ata-aos="fade-up">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2">
+          <div className="m-auto w-[60%]">
+            <p
+              className="text-center text-6xl text-white font-two mb-10"
+              data-aos="fade-right"
+            >
+              Our Proposed Concept
+            </p>
+            <p className="text-2xl text-gray-400 mb-7" data-aos="fade-up">
+              While many different Italian restaurants come in all shapes and
+              sizes, the "DeMà" concept extends beyond traditional food and fine
+              dining. Loosening its bow tie and keeping its "rustic chic"
+              ambience coupled with traditionally influenced cuisine makes it a
+              unique concept in Dubai.
+            </p>
+          </div>
+          <Image
+            src="/abc.png"
+            alt="DeMa Restaurant"
+            width={600}
+            height={400}
+            className="mx-auto "
+            data-aos="zoom-in"
+          />
+        </div>
+      </div>
+      <div className="py-10" ata-aos="fade-up">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2">
+          <div className="m-auto w-[60%]">
+            <p
+              className="text-center text-6xl text-white font-two mb-10"
+              data-aos="fade-right"
+            >
+              Proposed Restaurant Ambience
+            </p>
+            <p className="text-2xl text-gray-400 mb-7" data-aos="fade-up">
+              DeMà will have a clean, yet rustic euro ambience coupled with
+              excellent warm service from the staff and its owners.{" "}
+              <span className="text-mainColor">
+                UAE diners will be highly impressed with the experience of our
+                unique restaurant.
+              </span>
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-5 mx-auto rounded-lg border-[15px] bg-gray-200">
+            <div className=" flex flex-col justify-between gap-5">
+              <Image
+                src="/sect_234.jpg"
+                alt="DeMa Restaurant"
+                width={200}
+                height={400}
+                className="mx-auto "
+                data-aos="zoom-in"
+              />
+              <Image
+                src="/sect_123.jpg"
+                alt="DeMa Restaurant"
+                width={200}
+                height={400}
+                className="mx-auto "
+                data-aos="zoom-in"
+              />
+            </div>
+            <Image
+              src="/sect_567.jpg"
+              alt="DeMa Restaurant"
+              width={300}
+              height={400}
+              className="mx-auto "
+              data-aos="zoom-in"
+            />
           </div>
         </div>
       </div>
