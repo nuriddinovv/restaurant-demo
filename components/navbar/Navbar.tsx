@@ -7,8 +7,8 @@ export default function Navbar() {
     <div
       className="shadow-xl"
       style={{
-        backgroundColor: "rgba(0, 0, 0, 0.7)", 
-        backdropFilter: "blur(3px)", 
+        backgroundColor: "rgba(0, 0, 0, 0.7)",
+        backdropFilter: "blur(3px)",
       }}
     >
       <div className="container flex justify-between items-center py-2">

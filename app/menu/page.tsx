@@ -85,14 +85,23 @@ export default function Menu() {
   ];
 
   return (
-    <div className="">
-      <div className="font-two  pt-[120px] pb-6">
-        <p className=" text-4xl container md:text-6xl lg:text-8xl text-white text-center">
+    <div>
+      <div className="font-two pt-[120px] pb-6">
+        <p
+          className="text-4xl container md:text-6xl lg:text-8xl text-white text-center"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
           The Menu
         </p>
       </div>
       <div>
-        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 container">
+        <div
+          className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 container"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+          data-aos-delay="200"
+        >
           {menuData.map((item, i) => (
             <Card
               key={i}
