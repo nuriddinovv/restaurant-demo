@@ -14,7 +14,7 @@ export default function Home() {
             data-aos="zoom-in"
             src="/vistamare.taranto-20241112-0001.jpg"
             alt="DeMa Restaurant"
-            width={500}
+            width={400}
             height={400}
             className="mx-auto rounded-lg border-[15px]"
           />
