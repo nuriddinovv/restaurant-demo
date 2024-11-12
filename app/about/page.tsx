@@ -43,15 +43,7 @@ export default function About() {
               refreshing.
             </p>
           </div>
-          <Image
-            src={"/about2.webp"}
-            alt={"DeMa Restaurant"}
-            width={600}
-            height={400}
-            className="mx-auto rounded-lg border-[15px] mb-10"
-            data-aos="zoom-in"
-            data-aos-duration="1200"
-          />
+        
         </div>
         <div
           className="py-10 flex gap-10"
