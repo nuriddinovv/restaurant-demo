@@ -12,7 +12,7 @@ export default function Home() {
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2">
           <Image
             data-aos="zoom-in"
-            src="/sect_one.jpg"
+            src="/vistamare.taranto-20241112-0001.jpg"
             alt="DeMa Restaurant"
             width={500}
             height={400}
