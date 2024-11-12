@@ -19,9 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body
         style={{
-          backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("/bgmain.webp")`,
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url("/bgmain.webp")`,
+          backgroundSize: "contain",
+          backgroundRepeat: "repeat",
         }}
       >
         <div className="fixed w-full z-50">
